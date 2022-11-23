@@ -31,9 +31,13 @@ nav{
     background-color: #FFF9F5;
     height: 90vh;
 }
+.gridd{
+    display: flex;
+}
 .grid{
     display: flex;
 }
+
 .first-content{
     margin-top: 150px;
 }
@@ -96,9 +100,19 @@ nav{
 }
 .second-content{
     box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
-
+    display: flex;
 }
-.g-col-3{
+.second-content h2{
+    width: 100%;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.griddd{
+    display: flex;
+}
+.co{
     width: 300px;
     margin: 0px 10px 0px 10px;
 }
@@ -144,6 +158,9 @@ nav{
 }
 .third{
     background-image: url(images/Rectangle10.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
 }
 .three{
@@ -311,6 +328,8 @@ nav{
     border: 1px solid rgb(185, 185, 185);
     border-radius: 20px;
     z-index: 10;
+    height: 450px;
+    width: 630px;
     
 }
 .news-flex img{
@@ -338,8 +357,8 @@ nav{
     color:#ED7E2C;
     font-size: 18px;
     z-index: 1000;
-    margin-left: 320px;
-    margin-top: -90px;
+    /* margin-left: 320px; */
+    margin-top: 140px;
     
 
 }
@@ -415,4 +434,261 @@ footer h4{
 }
 .foot a:hover{
     color: #ED7E2C;
+}
+
+@media screen and (max-width: 768px){
+    .first-content h1{
+        width: 290px !important;
+        font-size: 25px !important;
+        margin-top: -25%;
+        margin-left: 20px;
+    }
+    .first{
+        width: 100%;
+    }
+    
+    .first-content p{
+        width: 90%;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .first-content button{
+        margin-left: 20px;
+    }
+    .navbar-brand img{
+        width: 160px;
+    }
+    .navbar-brand img{
+        margin-left: -70%;
+    }
+    
+    .gridd{
+        display: flex;
+        flex-direction: column;
+    }
+    .first-img img{
+        /* display: none; */
+        margin: 0 !important;
+        height: 400px;
+        margin-top: 20px !important;
+        margin-left: -20px !important;
+    }
+    #sec{
+        display: flex;
+        margin-top: 100px !important;
+        margin-left: -20px !important;
+        justify-content: space-between;
+    }
+    
+    .Learn h3{
+        font-size: 16px;
+        margin: 0 !important;
+        margin-top: 20px !important;
+    }
+     #sec h3{
+        font-size: 10px;
+    }
+    .second-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .pro{
+        /* display: none; */
+        font-weight: 500 !important;
+        margin-bottom: -20%;
+        margin-top: 90px !important;
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+    }
+    .Learn p{
+        width: 90% !important;
+        font-size: 10px;
+        margin-top: 20px !important;
+        /* margin-left: -10px; */
+    }
+    .Learn button{
+        height: 23px;
+        width: 100px;
+        font-size: 10px;
+    }
+    .Learn img{
+        /* display: none; */
+        width: 300px;
+        height: 300px;
+        margin-left: 13px !important;
+    }
+    .third{
+        height: 180vh;
+    }
+    .third-content{
+        padding: 0 !important;
+    }
+    
+    .third-content h2{
+        padding: 0 !important;
+        font-size: 20px;
+        width: 50%;
+        text-align: center;
+        padding-top: 80px !important;
+        padding-left: -30px !important;
+    }
+    .git h1{
+        font-size: 25px;
+        width: 350px;
+        padding-top: 30px;
+        font-weight: 500 !important;
+    }
+    .para{
+        width: 330px;
+        margin-top: -49px;
+    }
+    .three{
+        width: 200px;
+        height: 180px;
+        margin-top: 20px;
+        margin-left: 83px !important;
+    }
+    .three img{
+        width: 90px;
+    }
+    .three p{
+        font-size: 15px;
+        margin-top: -20px;
+    }
+    .text p{
+        width: 300px;
+        font-size: 12px;
+        
+
+    }
+    .fourth{
+        height: 270vh;
+
+    }
+    .four{
+        width: 300px;
+        height: 75vh;
+        margin: 0 !important;
+        margin-left: 20px !important;
+        margin: 20px !important;
+    }
+    .four img{
+        width: 100%;
+        
+    }
+    .he{
+        margin-left: -20px;
+    }
+    .con{
+        margin-top: -40px;
+        margin-left: -20px;
+        width: 90%;
+    }
+    .four-text button{
+        margin: 0 !important;
+        margin-left: -20px !important;
+        /* margin-top: px !important; */
+    }
+    .four-text h2{
+        margin-left: -20px !important;
+    }
+    .real{
+        margin-top: -50px !important;
+        margin-left: -20px !important;
+    }
+    .learn{
+        margin: 0 !important;
+        margin-top: -20px;
+        margin-left:20px !important ;
+    }
+    .logo{
+        display: none;
+        margin: 0 !important;
+        width: 20px;
+        height: 20px;
+        position: fixed;
+        margin-left: -1120px !important;
+    }
+    .fifth{
+        height: 270vh;
+    }
+    .box{
+        height: 300px;
+        width: 260px;
+        margin-left: 58px !important;
+        margin-top: 30px !important;
+    }
+    .box p{
+        font-size: 13px;
+    }
+    .details{
+        margin-top: -20px !important;
+    }
+    .sixth{
+        height: 160vh;
+        /* display: none; */
+    }
+    .seventh{
+        height: 250vh;
+        /* display: none; */
+    }
+    .news-flex{
+        display: flex;
+        flex-direction: column;
+        width: 340px;
+        
+    }
+    .news-flex img{
+        margin-left: 5px !important;
+        /* height: 700px; */
+    }
+    footer{
+        height: 120vh;
+    }
+
+    .news button{
+        margin: 0 !important;
+    }
+    .news-text{
+        margin: 0 !important;
+    }
+    .space{
+        display: flex;
+        flex-direction: column;
+    }
+    .news{
+        margin-bottom: 100px;
+    }
+    .news-flex{
+        height: 800px;
+    }
+    .news-text{
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+        margin-top: 10px !important;
+    }
+    .foot{
+        margin: 0 !important;
+
+    }
+    .last{
+        margin: 0 !important;
+        margin-left: -10px !important;
+        margin-top: 20px !important;
+    }
+    .foot li a{
+        margin-left: -10px !important;
+    }
+    .foot p{
+        width: 60%;
+    }
+    .lastt{
+        margin-left: 30px !important;
+    }
+    .text-centerr{
+        margin-left: 37px !important;
+        margin-top: 30px !important;
+    }
 }
