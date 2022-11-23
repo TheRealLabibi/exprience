@@ -158,9 +158,6 @@ nav{
 }
 .third{
     background-image: url(images/Rectangle10.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     height: 100vh;
 }
 .three{
