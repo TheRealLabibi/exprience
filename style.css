@@ -518,26 +518,30 @@ footer h4{
     }
     .third{
         height: 180vh;
+        background-image: url(./Images/Rectangle10.png);
     }
     .third-content{
         padding: 0 !important;
     }
     
     .third-content h2{
+        color: white;
         padding: 0 !important;
         font-size: 20px;
-        width: 50%;
+        width: 90%;
         text-align: center;
         padding-top: 80px !important;
-        padding-left: -30px !important;
+        padding-left: 30px !important;
     }
     .git h1{
+        color: white;
         font-size: 25px;
         width: 350px;
         padding-top: 30px;
         font-weight: 500 !important;
     }
     .para{
+        color: white;
         width: 330px;
         margin-top: -49px;
     }
@@ -551,6 +555,7 @@ footer h4{
         width: 90px;
     }
     .three p{
+        color: white;
         font-size: 15px;
         margin-top: -20px;
     }
